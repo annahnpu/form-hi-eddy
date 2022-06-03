@@ -1,10 +1,62 @@
-$top-color: #0066cc;
-$bottom-color: #ffcc00;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
 
-.top {
-  color: $top-color;
+body {
+  display: flex;
 }
 
-.bottom {
-  color: $bottom-color;
+h1 {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #520096;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #520096;
+}
+
+p {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #520096;
+  margin-top: 20px;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #520096;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+button {
+  background: #6D2CA9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), inset -1px 4px 17px -2px rgba(250, 253, 255, 0.8);
+  border-radius: 10px;
+  position: absolute;
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #FBFBFB;
+  margin-top: 40px;
+}
+
+.block {
+  display: flex;
+  
+
 }
